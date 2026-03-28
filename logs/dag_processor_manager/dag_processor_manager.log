@@ -1,0 +1,2176 @@
+[2026-03-23T20:49:22.213+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-03-23T20:49:22.213+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-03-23T20:49:22.213+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-23T20:49:22.214+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T20:49:22.218+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T20:49:22.291+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dbt_dag.py                                     0           0
+/opt/airflow/dags/hourly_batch_data.py                           0           0
+/opt/airflow/dags/sentiment_dag.py        171  0.03s             0           0
+/opt/airflow/dags/medalion_dag.py         174  0.03s             0           0
+================================================================================
+[2026-03-23T20:49:23.619+0000] {manager.py:1031} ERROR - Processor for /opt/airflow/dags/hourly_batch_data.py exited with return code 1.
+[2026-03-23T20:49:52.786+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/hourly_batch_data.py                           0          -1  0.98s           2026-03-23T20:49:23
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.14s           2026-03-23T20:49:23
+/opt/airflow/dags/sentiment_dag.py        193  0.00s             1           0  0.38s           2026-03-23T20:49:22
+/opt/airflow/dags/medalion_dag.py                                1           0  1.12s           2026-03-23T20:49:23
+================================================================================
+[2026-03-23T20:50:13.473+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-23T20:50:44.647+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-03-23T20:50:44.647+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-03-23T20:50:44.647+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-23T20:50:44.647+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T20:50:44.669+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T20:50:44.766+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dbt_dag.py                                     0           0
+/opt/airflow/dags/hourly_batch_data.py                           0           0
+/opt/airflow/dags/sentiment_dag.py        170  0.05s             0           0
+/opt/airflow/dags/medalion_dag.py         173  0.04s             0           0
+================================================================================
+[2026-03-23T20:51:14.998+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T20:50:45
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.90s           2026-03-23T20:50:45
+/opt/airflow/dags/sentiment_dag.py        192  0.01s             1           0  0.12s           2026-03-23T20:50:44
+/opt/airflow/dags/medalion_dag.py                                1           0  1.03s           2026-03-23T20:50:45
+================================================================================
+[2026-03-23T20:51:45.809+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T20:51:16
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T20:51:16
+/opt/airflow/dags/sentiment_dag.py        214  0.02s             1           0  0.06s           2026-03-23T20:51:15
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-23T20:51:16
+================================================================================
+[2026-03-23T20:52:16.679+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T20:51:47
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.58s           2026-03-23T20:51:47
+/opt/airflow/dags/sentiment_dag.py        236  0.01s             1           0  0.13s           2026-03-23T20:51:45
+/opt/airflow/dags/medalion_dag.py                                1           0  0.55s           2026-03-23T20:51:47
+================================================================================
+[2026-03-23T20:52:47.446+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.11s           2026-03-23T20:52:18
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.41s           2026-03-23T20:52:18
+/opt/airflow/dags/sentiment_dag.py        258  0.02s             1           0  0.31s           2026-03-23T20:52:16
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-23T20:52:18
+================================================================================
+[2026-03-23T20:53:18.290+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.13s           2026-03-23T20:52:49
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.48s           2026-03-23T20:52:48
+/opt/airflow/dags/sentiment_dag.py        280  0.02s             1           0  0.31s           2026-03-23T20:52:47
+/opt/airflow/dags/medalion_dag.py                                1           0  0.44s           2026-03-23T20:52:48
+================================================================================
+[2026-03-23T20:53:49.035+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.12s           2026-03-23T20:53:19
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.38s           2026-03-23T20:53:19
+/opt/airflow/dags/sentiment_dag.py        302  0.01s             1           0  0.41s           2026-03-23T20:53:18
+/opt/airflow/dags/medalion_dag.py                                1           0  0.44s           2026-03-23T20:53:19
+================================================================================
+[2026-03-23T20:54:19.805+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.12s           2026-03-23T20:53:50
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.44s           2026-03-23T20:53:50
+/opt/airflow/dags/sentiment_dag.py        324  0.02s             1           0  0.19s           2026-03-23T20:53:49
+/opt/airflow/dags/medalion_dag.py                                1           0  0.41s           2026-03-23T20:53:50
+================================================================================
+[2026-03-23T20:54:30.378+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-23T20:58:46.021+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-03-23T20:58:46.021+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-03-23T20:58:46.021+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-23T20:58:46.021+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T20:58:46.038+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T20:58:46.098+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dbt_dag.py                                     0           0
+/opt/airflow/dags/hourly_batch_data.py                           0           0
+/opt/airflow/dags/sentiment_dag.py        171  0.02s             0           0
+/opt/airflow/dags/medalion_dag.py         174  0.02s             0           0
+================================================================================
+[2026-03-23T20:59:16.208+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.04s           2026-03-23T20:58:47
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.82s           2026-03-23T20:58:46
+/opt/airflow/dags/sentiment_dag.py        193  0.00s             1           0  0.09s           2026-03-23T20:58:46
+/opt/airflow/dags/medalion_dag.py                                1           0  0.91s           2026-03-23T20:58:46
+================================================================================
+[2026-03-23T20:59:46.993+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T20:59:17
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-23T20:59:17
+/opt/airflow/dags/sentiment_dag.py        215  0.01s             1           0  0.06s           2026-03-23T20:59:16
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-23T20:59:17
+================================================================================
+[2026-03-23T21:00:17.670+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T20:59:48
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.45s           2026-03-23T20:59:48
+/opt/airflow/dags/sentiment_dag.py        237  0.01s             1           0  0.09s           2026-03-23T20:59:47
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T20:59:48
+================================================================================
+[2026-03-23T21:00:48.543+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.11s           2026-03-23T21:00:19
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-23T21:00:19
+/opt/airflow/dags/sentiment_dag.py        259  0.02s             1           0  0.29s           2026-03-23T21:00:17
+/opt/airflow/dags/medalion_dag.py                                1           0  0.52s           2026-03-23T21:00:19
+================================================================================
+[2026-03-23T21:01:19.385+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.11s           2026-03-23T21:00:50
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.53s           2026-03-23T21:00:50
+/opt/airflow/dags/sentiment_dag.py        281  0.01s             1           0  0.33s           2026-03-23T21:00:48
+/opt/airflow/dags/medalion_dag.py                                1           0  0.49s           2026-03-23T21:00:50
+================================================================================
+[2026-03-23T21:01:50.297+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.13s           2026-03-23T21:01:21
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.39s           2026-03-23T21:01:20
+/opt/airflow/dags/sentiment_dag.py        303  0.01s             1           0  0.22s           2026-03-23T21:01:19
+/opt/airflow/dags/medalion_dag.py                                1           0  0.44s           2026-03-23T21:01:20
+================================================================================
+[2026-03-23T21:02:21.246+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.11s           2026-03-23T21:01:51
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.51s           2026-03-23T21:01:51
+/opt/airflow/dags/sentiment_dag.py        325  0.01s             1           0  0.26s           2026-03-23T21:01:50
+/opt/airflow/dags/medalion_dag.py                                1           0  0.48s           2026-03-23T21:01:51
+================================================================================
+[2026-03-23T21:02:51.886+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:02:22
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.33s           2026-03-23T21:02:22
+/opt/airflow/dags/sentiment_dag.py        347  0.01s             1           0  0.10s           2026-03-23T21:02:21
+/opt/airflow/dags/medalion_dag.py                                1           0  0.39s           2026-03-23T21:02:22
+================================================================================
+[2026-03-23T21:03:22.563+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:02:53
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:02:53
+/opt/airflow/dags/sentiment_dag.py        369  0.02s             1           0  0.09s           2026-03-23T21:02:51
+/opt/airflow/dags/medalion_dag.py                                1           0  0.33s           2026-03-23T21:02:53
+================================================================================
+[2026-03-23T21:03:46.224+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:03:46.236+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:03:53.302+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:03:24
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.38s           2026-03-23T21:03:23
+/opt/airflow/dags/sentiment_dag.py        391  0.00s             1           0  0.14s           2026-03-23T21:03:22
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:03:24
+================================================================================
+[2026-03-23T21:04:23.928+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:03:54
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.31s           2026-03-23T21:03:54
+/opt/airflow/dags/sentiment_dag.py        413  0.02s             1           0  0.07s           2026-03-23T21:03:53
+/opt/airflow/dags/medalion_dag.py                                1           0  0.29s           2026-03-23T21:03:54
+================================================================================
+[2026-03-23T21:04:54.777+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:04:25
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:04:25
+/opt/airflow/dags/sentiment_dag.py        435  0.03s             1           0  0.17s           2026-03-23T21:04:24
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-23T21:04:25
+================================================================================
+[2026-03-23T21:05:25.493+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:04:56
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.40s           2026-03-23T21:04:56
+/opt/airflow/dags/sentiment_dag.py        457  0.01s             1           0  0.14s           2026-03-23T21:04:54
+/opt/airflow/dags/medalion_dag.py                                1           0  0.36s           2026-03-23T21:04:56
+================================================================================
+[2026-03-23T21:05:56.213+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:05:26
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:05:26
+/opt/airflow/dags/sentiment_dag.py        479  0.01s             1           0  0.13s           2026-03-23T21:05:25
+/opt/airflow/dags/medalion_dag.py                                1           0  0.41s           2026-03-23T21:05:26
+================================================================================
+[2026-03-23T21:06:26.923+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:05:57
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:05:57
+/opt/airflow/dags/sentiment_dag.py        501  0.02s             1           0  0.09s           2026-03-23T21:05:56
+/opt/airflow/dags/medalion_dag.py                                1           0  0.33s           2026-03-23T21:05:57
+================================================================================
+[2026-03-23T21:06:57.722+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:06:28
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.39s           2026-03-23T21:06:28
+/opt/airflow/dags/sentiment_dag.py        523  0.06s             1           0  0.21s           2026-03-23T21:06:27
+/opt/airflow/dags/medalion_dag.py                                1           0  0.44s           2026-03-23T21:06:28
+================================================================================
+[2026-03-23T21:07:28.466+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:06:59
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.43s           2026-03-23T21:06:59
+/opt/airflow/dags/sentiment_dag.py        545  0.01s             1           0  0.22s           2026-03-23T21:06:57
+/opt/airflow/dags/medalion_dag.py                                1           0  0.40s           2026-03-23T21:06:59
+================================================================================
+[2026-03-23T21:07:59.173+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:07:29
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.33s           2026-03-23T21:07:29
+/opt/airflow/dags/sentiment_dag.py        567  0.01s             1           0  0.11s           2026-03-23T21:07:28
+/opt/airflow/dags/medalion_dag.py                                1           0  0.37s           2026-03-23T21:07:29
+================================================================================
+[2026-03-23T21:08:29.908+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:08:00
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.41s           2026-03-23T21:08:00
+/opt/airflow/dags/sentiment_dag.py        589  0.02s             1           0  0.07s           2026-03-23T21:07:59
+/opt/airflow/dags/medalion_dag.py                                1           0  0.37s           2026-03-23T21:08:00
+================================================================================
+[2026-03-23T21:08:46.515+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:08:46.527+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:09:00.672+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:08:31
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.37s           2026-03-23T21:08:31
+/opt/airflow/dags/sentiment_dag.py        611  0.01s             1           0  0.17s           2026-03-23T21:08:30
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:08:31
+================================================================================
+[2026-03-23T21:09:31.272+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:09:02
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.29s           2026-03-23T21:09:01
+/opt/airflow/dags/sentiment_dag.py        633  0.02s             1           0  0.09s           2026-03-23T21:09:00
+/opt/airflow/dags/medalion_dag.py                                1           0  0.27s           2026-03-23T21:09:01
+================================================================================
+[2026-03-23T21:10:01.976+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:09:32
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:09:32
+/opt/airflow/dags/sentiment_dag.py        655  0.01s             1           0  0.16s           2026-03-23T21:09:31
+/opt/airflow/dags/medalion_dag.py                                1           0  0.41s           2026-03-23T21:09:32
+================================================================================
+[2026-03-23T21:10:32.834+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:10:03
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.50s           2026-03-23T21:10:03
+/opt/airflow/dags/sentiment_dag.py        677  0.01s             1           0  0.08s           2026-03-23T21:10:02
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-23T21:10:03
+================================================================================
+[2026-03-23T21:11:03.598+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:10:34
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.40s           2026-03-23T21:10:34
+/opt/airflow/dags/sentiment_dag.py        699  0.02s             1           0  0.21s           2026-03-23T21:10:33
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-23T21:10:34
+================================================================================
+[2026-03-23T21:11:34.483+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.10s           2026-03-23T21:11:05
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-23T21:11:05
+/opt/airflow/dags/sentiment_dag.py        721  0.01s             1           0  0.15s           2026-03-23T21:11:03
+/opt/airflow/dags/medalion_dag.py                                1           0  0.47s           2026-03-23T21:11:05
+================================================================================
+[2026-03-23T21:12:05.216+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:11:35
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.29s           2026-03-23T21:11:35
+/opt/airflow/dags/sentiment_dag.py        743  0.02s             1           0  0.11s           2026-03-23T21:11:34
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-23T21:11:35
+================================================================================
+[2026-03-23T21:12:36.255+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:12:06
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.60s           2026-03-23T21:12:06
+/opt/airflow/dags/sentiment_dag.py        765  0.02s             1           0  0.12s           2026-03-23T21:12:05
+/opt/airflow/dags/medalion_dag.py                                1           0  0.56s           2026-03-23T21:12:06
+================================================================================
+[2026-03-23T21:13:06.981+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:12:37
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.32s           2026-03-23T21:12:37
+/opt/airflow/dags/sentiment_dag.py        787  0.02s             1           0  0.29s           2026-03-23T21:12:36
+/opt/airflow/dags/medalion_dag.py                                1           0  0.38s           2026-03-23T21:12:37
+================================================================================
+[2026-03-23T21:13:37.681+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:13:08
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.37s           2026-03-23T21:13:08
+/opt/airflow/dags/sentiment_dag.py        809  0.01s             1           0  0.11s           2026-03-23T21:13:07
+/opt/airflow/dags/medalion_dag.py                                1           0  0.33s           2026-03-23T21:13:08
+================================================================================
+[2026-03-23T21:13:47.068+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:13:47.090+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:14:08.289+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:13:39
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.25s           2026-03-23T21:13:38
+/opt/airflow/dags/sentiment_dag.py        831  0.01s             1           0  0.09s           2026-03-23T21:13:37
+/opt/airflow/dags/medalion_dag.py                                1           0  0.30s           2026-03-23T21:13:38
+================================================================================
+[2026-03-23T21:14:39.160+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:14:09
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.51s           2026-03-23T21:14:09
+/opt/airflow/dags/sentiment_dag.py        853  0.01s             1           0  0.18s           2026-03-23T21:14:08
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-23T21:14:09
+================================================================================
+[2026-03-23T21:15:09.940+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:14:40
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.34s           2026-03-23T21:14:40
+/opt/airflow/dags/sentiment_dag.py        875  0.01s             1           0  0.10s           2026-03-23T21:14:39
+/opt/airflow/dags/medalion_dag.py                                1           0  0.40s           2026-03-23T21:14:40
+================================================================================
+[2026-03-23T21:15:40.609+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:15:11
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:15:11
+/opt/airflow/dags/sentiment_dag.py        897  0.01s             1           0  0.10s           2026-03-23T21:15:10
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:15:11
+================================================================================
+[2026-03-23T21:16:11.307+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:15:42
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.37s           2026-03-23T21:15:42
+/opt/airflow/dags/sentiment_dag.py        919  0.02s             1           0  0.10s           2026-03-23T21:15:40
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:15:42
+================================================================================
+[2026-03-23T21:16:42.019+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:16:12
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.41s           2026-03-23T21:16:12
+/opt/airflow/dags/sentiment_dag.py        941  0.01s             1           0  0.17s           2026-03-23T21:16:11
+/opt/airflow/dags/medalion_dag.py                                1           0  0.38s           2026-03-23T21:16:12
+================================================================================
+[2026-03-23T21:17:12.708+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:16:43
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.30s           2026-03-23T21:16:43
+/opt/airflow/dags/sentiment_dag.py        963  0.03s             1           0  0.09s           2026-03-23T21:16:42
+/opt/airflow/dags/medalion_dag.py                                1           0  0.35s           2026-03-23T21:16:43
+================================================================================
+[2026-03-23T21:17:43.512+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:17:14
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-23T21:17:14
+/opt/airflow/dags/sentiment_dag.py        985  0.02s             1           0  0.22s           2026-03-23T21:17:12
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:17:14
+================================================================================
+[2026-03-23T21:18:14.345+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:17:45
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.43s           2026-03-23T21:17:44
+/opt/airflow/dags/sentiment_dag.py       1007  0.03s             1           0  0.22s           2026-03-23T21:17:43
+/opt/airflow/dags/medalion_dag.py                                1           0  0.49s           2026-03-23T21:17:45
+================================================================================
+[2026-03-23T21:18:45.150+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:18:15
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-23T21:18:15
+/opt/airflow/dags/sentiment_dag.py       1029  0.02s             1           0  0.21s           2026-03-23T21:18:14
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:18:15
+================================================================================
+[2026-03-23T21:18:47.752+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:18:47.762+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:19:16.022+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:18:46
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.50s           2026-03-23T21:18:46
+/opt/airflow/dags/sentiment_dag.py       1051  0.01s             1           0  0.16s           2026-03-23T21:18:45
+/opt/airflow/dags/medalion_dag.py                                1           0  0.57s           2026-03-23T21:18:46
+================================================================================
+[2026-03-23T21:19:46.785+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:19:17
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.37s           2026-03-23T21:19:17
+/opt/airflow/dags/sentiment_dag.py       1073  0.04s             1           0  0.08s           2026-03-23T21:19:16
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-23T21:19:17
+================================================================================
+[2026-03-23T21:20:17.428+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:19:48
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.29s           2026-03-23T21:19:48
+/opt/airflow/dags/sentiment_dag.py       1095  0.01s             1           0  0.15s           2026-03-23T21:19:46
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-23T21:19:48
+================================================================================
+[2026-03-23T21:20:48.064+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:20:18
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.29s           2026-03-23T21:20:18
+/opt/airflow/dags/sentiment_dag.py       1117  0.01s             1           0  0.08s           2026-03-23T21:20:17
+/opt/airflow/dags/medalion_dag.py                                1           0  0.27s           2026-03-23T21:20:18
+================================================================================
+[2026-03-23T21:21:18.770+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:20:49
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.38s           2026-03-23T21:20:49
+/opt/airflow/dags/sentiment_dag.py       1139  0.01s             1           0  0.10s           2026-03-23T21:20:48
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-23T21:20:49
+================================================================================
+[2026-03-23T21:21:49.551+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:21:20
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.56s           2026-03-23T21:21:20
+/opt/airflow/dags/sentiment_dag.py       1161  0.00s             1           0  0.13s           2026-03-23T21:21:18
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:21:20
+================================================================================
+[2026-03-23T21:22:20.225+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:21:50
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.30s           2026-03-23T21:21:50
+/opt/airflow/dags/sentiment_dag.py       1183  0.01s             1           0  0.08s           2026-03-23T21:21:49
+/opt/airflow/dags/medalion_dag.py                                1           0  0.35s           2026-03-23T21:21:50
+================================================================================
+[2026-03-23T21:22:50.826+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:22:21
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.34s           2026-03-23T21:22:21
+/opt/airflow/dags/sentiment_dag.py       1205  0.01s             1           0  0.07s           2026-03-23T21:22:20
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:22:21
+================================================================================
+[2026-03-23T21:23:21.531+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:22:52
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:22:52
+/opt/airflow/dags/sentiment_dag.py       1227  0.01s             1           0  0.15s           2026-03-23T21:22:50
+/opt/airflow/dags/medalion_dag.py                                1           0  0.39s           2026-03-23T21:22:52
+================================================================================
+[2026-03-23T21:23:48.161+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:23:48.170+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:23:52.230+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:23:22
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.39s           2026-03-23T21:23:22
+/opt/airflow/dags/sentiment_dag.py       1249  0.01s             1           0  0.13s           2026-03-23T21:23:21
+/opt/airflow/dags/medalion_dag.py                                1           0  0.36s           2026-03-23T21:23:22
+================================================================================
+[2026-03-23T21:24:22.938+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:23:53
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:23:53
+/opt/airflow/dags/sentiment_dag.py       1271  0.02s             1           0  0.14s           2026-03-23T21:23:52
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-23T21:23:53
+================================================================================
+[2026-03-23T21:24:53.707+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:24:24
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-23T21:24:24
+/opt/airflow/dags/sentiment_dag.py       1293  0.01s             1           0  0.18s           2026-03-23T21:24:23
+/opt/airflow/dags/medalion_dag.py                                1           0  0.44s           2026-03-23T21:24:24
+================================================================================
+[2026-03-23T21:25:24.400+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:24:55
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:24:55
+/opt/airflow/dags/sentiment_dag.py       1315  0.01s             1           0  0.11s           2026-03-23T21:24:53
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:24:55
+================================================================================
+[2026-03-23T21:25:55.076+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:25:25
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.42s           2026-03-23T21:25:25
+/opt/airflow/dags/sentiment_dag.py       1337  0.01s             1           0  0.09s           2026-03-23T21:25:24
+/opt/airflow/dags/medalion_dag.py                                1           0  0.37s           2026-03-23T21:25:25
+================================================================================
+[2026-03-23T21:26:25.873+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:25:56
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.42s           2026-03-23T21:25:56
+/opt/airflow/dags/sentiment_dag.py       1359  0.01s             1           0  0.13s           2026-03-23T21:25:55
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-23T21:25:56
+================================================================================
+[2026-03-23T21:26:56.656+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:26:27
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.59s           2026-03-23T21:26:27
+/opt/airflow/dags/sentiment_dag.py       1381  0.01s             1           0  0.10s           2026-03-23T21:26:25
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:26:27
+================================================================================
+[2026-03-23T21:27:27.540+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:26:58
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.45s           2026-03-23T21:26:58
+/opt/airflow/dags/sentiment_dag.py       1403  0.01s             1           0  0.16s           2026-03-23T21:26:56
+/opt/airflow/dags/medalion_dag.py                                1           0  0.53s           2026-03-23T21:26:58
+================================================================================
+[2026-03-23T21:27:58.255+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.10s           2026-03-23T21:27:28
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.38s           2026-03-23T21:27:28
+/opt/airflow/dags/sentiment_dag.py       1425  0.03s             1           0  0.10s           2026-03-23T21:27:27
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:27:28
+================================================================================
+[2026-03-23T21:28:29.051+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:27:59
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:27:59
+/opt/airflow/dags/sentiment_dag.py       1447  0.05s             1           0  0.16s           2026-03-23T21:27:58
+/opt/airflow/dags/medalion_dag.py                                1           0  0.40s           2026-03-23T21:27:59
+================================================================================
+[2026-03-23T21:28:48.754+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:28:48.765+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:28:59.898+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:28:30
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.60s           2026-03-23T21:28:30
+/opt/airflow/dags/sentiment_dag.py       1469  0.03s             1           0  0.21s           2026-03-23T21:28:29
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-23T21:28:30
+================================================================================
+[2026-03-23T21:29:30.760+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.10s           2026-03-23T21:29:01
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.42s           2026-03-23T21:29:01
+/opt/airflow/dags/sentiment_dag.py       1491  0.01s             1           0  0.15s           2026-03-23T21:29:00
+/opt/airflow/dags/medalion_dag.py                                1           0  0.59s           2026-03-23T21:29:01
+================================================================================
+[2026-03-23T21:30:01.525+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:29:32
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-23T21:29:32
+/opt/airflow/dags/sentiment_dag.py       1513  0.01s             1           0  0.12s           2026-03-23T21:29:30
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:29:32
+================================================================================
+[2026-03-23T21:30:32.218+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:30:02
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:30:02
+/opt/airflow/dags/sentiment_dag.py       1535  0.02s             1           0  0.10s           2026-03-23T21:30:01
+/opt/airflow/dags/medalion_dag.py                                1           0  0.40s           2026-03-23T21:30:02
+================================================================================
+[2026-03-23T21:31:02.278+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:30:33
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.71s           2026-03-23T21:30:33
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-23T21:30:32
+/opt/airflow/dags/medalion_dag.py                                1           0  0.67s           2026-03-23T21:30:33
+================================================================================
+[2026-03-23T21:31:33.125+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:31:04
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-23T21:31:04
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.28s           2026-03-23T21:31:03
+/opt/airflow/dags/medalion_dag.py                                1           0  0.60s           2026-03-23T21:31:04
+================================================================================
+[2026-03-23T21:32:03.975+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:31:35
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.58s           2026-03-23T21:31:35
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.13s           2026-03-23T21:31:34
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:31:35
+================================================================================
+[2026-03-23T21:32:33.982+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:32:06
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.61s           2026-03-23T21:32:06
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-23T21:32:05
+/opt/airflow/dags/medalion_dag.py                                1           0  0.68s           2026-03-23T21:32:06
+================================================================================
+[2026-03-23T21:33:04.648+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:32:37
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.32s           2026-03-23T21:32:37
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:32:36
+/opt/airflow/dags/medalion_dag.py                                1           0  0.29s           2026-03-23T21:32:37
+================================================================================
+[2026-03-23T21:33:35.455+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:33:08
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.43s           2026-03-23T21:33:08
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:33:06
+/opt/airflow/dags/medalion_dag.py                                1           0  0.48s           2026-03-23T21:33:08
+================================================================================
+[2026-03-23T21:33:48.991+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:33:49.004+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:34:06.157+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:33:38
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.43s           2026-03-23T21:33:38
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.22s           2026-03-23T21:33:37
+/opt/airflow/dags/medalion_dag.py                                1           0  0.31s           2026-03-23T21:33:38
+================================================================================
+[2026-03-23T21:34:36.852+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:34:09
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.32s           2026-03-23T21:34:09
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-23T21:34:08
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-23T21:34:09
+================================================================================
+[2026-03-23T21:35:07.544+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:34:40
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:34:40
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-23T21:34:39
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:34:40
+================================================================================
+[2026-03-23T21:35:38.336+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:35:11
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.44s           2026-03-23T21:35:11
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-23T21:35:09
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-23T21:35:11
+================================================================================
+[2026-03-23T21:36:09.113+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:35:41
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.44s           2026-03-23T21:35:41
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:35:40
+/opt/airflow/dags/medalion_dag.py                                1           0  0.41s           2026-03-23T21:35:41
+================================================================================
+[2026-03-23T21:36:39.822+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:36:12
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:36:12
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.16s           2026-03-23T21:36:11
+/opt/airflow/dags/medalion_dag.py                                1           0  0.52s           2026-03-23T21:36:12
+================================================================================
+[2026-03-23T21:37:10.515+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:36:43
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.49s           2026-03-23T21:36:43
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-23T21:36:41
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-23T21:36:43
+================================================================================
+[2026-03-23T21:37:41.256+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:37:14
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:37:13
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-23T21:37:12
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:37:14
+================================================================================
+[2026-03-23T21:38:11.844+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:37:44
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.29s           2026-03-23T21:37:44
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.07s           2026-03-23T21:37:43
+/opt/airflow/dags/medalion_dag.py                                1           0  0.26s           2026-03-23T21:37:44
+================================================================================
+[2026-03-23T21:38:42.817+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:38:15
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.64s           2026-03-23T21:38:15
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-23T21:38:14
+/opt/airflow/dags/medalion_dag.py                                1           0  0.72s           2026-03-23T21:38:15
+================================================================================
+[2026-03-23T21:38:49.249+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:38:49.253+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:39:13.455+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:38:46
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-23T21:38:46
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-23T21:38:44
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:38:46
+================================================================================
+[2026-03-23T21:39:43.530+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.09s           2026-03-23T21:39:17
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-23T21:39:17
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-23T21:39:15
+/opt/airflow/dags/medalion_dag.py                                1           0  0.78s           2026-03-23T21:39:17
+================================================================================
+[2026-03-23T21:40:14.408+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:39:48
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.61s           2026-03-23T21:39:48
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.18s           2026-03-23T21:39:46
+/opt/airflow/dags/medalion_dag.py                                1           0  0.56s           2026-03-23T21:39:48
+================================================================================
+[2026-03-23T21:40:45.251+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:40:19
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-23T21:40:18
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-23T21:40:17
+/opt/airflow/dags/medalion_dag.py                                1           0  0.52s           2026-03-23T21:40:19
+================================================================================
+[2026-03-23T21:41:16.017+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:40:49
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.44s           2026-03-23T21:40:49
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-23T21:40:48
+/opt/airflow/dags/medalion_dag.py                                1           0  0.40s           2026-03-23T21:40:49
+================================================================================
+[2026-03-23T21:41:46.769+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:41:20
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.36s           2026-03-23T21:41:20
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-23T21:41:19
+/opt/airflow/dags/medalion_dag.py                                1           0  0.52s           2026-03-23T21:41:20
+================================================================================
+[2026-03-23T21:42:17.526+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:41:51
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-23T21:41:51
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.13s           2026-03-23T21:41:49
+/opt/airflow/dags/medalion_dag.py                                1           0  0.42s           2026-03-23T21:41:51
+================================================================================
+[2026-03-23T21:42:48.451+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.09s           2026-03-23T21:42:22
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.42s           2026-03-23T21:42:22
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.37s           2026-03-23T21:42:20
+/opt/airflow/dags/medalion_dag.py                                1           0  0.49s           2026-03-23T21:42:22
+================================================================================
+[2026-03-23T21:43:19.358+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:42:53
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.48s           2026-03-23T21:42:53
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-23T21:42:51
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-23T21:42:52
+================================================================================
+[2026-03-23T21:43:49.891+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:43:49.896+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:43:49.907+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:43:23
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.33s           2026-03-23T21:43:23
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:43:22
+/opt/airflow/dags/medalion_dag.py                                1           0  0.38s           2026-03-23T21:43:23
+================================================================================
+[2026-03-23T21:44:20.594+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:43:54
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.49s           2026-03-23T21:43:54
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-23T21:43:53
+/opt/airflow/dags/medalion_dag.py                                1           0  0.37s           2026-03-23T21:43:54
+================================================================================
+[2026-03-23T21:44:51.362+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:44:25
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.41s           2026-03-23T21:44:25
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-23T21:44:23
+/opt/airflow/dags/medalion_dag.py                                1           0  0.55s           2026-03-23T21:44:25
+================================================================================
+[2026-03-23T21:45:22.054+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:44:55
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:44:55
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:44:54
+/opt/airflow/dags/medalion_dag.py                                1           0  0.31s           2026-03-23T21:44:55
+================================================================================
+[2026-03-23T21:45:52.953+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-23T21:45:26
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.52s           2026-03-23T21:45:26
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.17s           2026-03-23T21:45:25
+/opt/airflow/dags/medalion_dag.py                                1           0  0.60s           2026-03-23T21:45:26
+================================================================================
+[2026-03-23T21:46:23.665+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:45:57
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.51s           2026-03-23T21:45:57
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.08s           2026-03-23T21:45:56
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-23T21:45:57
+================================================================================
+[2026-03-23T21:46:54.364+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:46:28
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.38s           2026-03-23T21:46:28
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-23T21:46:26
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-23T21:46:28
+================================================================================
+[2026-03-23T21:47:24.979+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:46:58
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.43s           2026-03-23T21:46:58
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-23T21:46:57
+/opt/airflow/dags/medalion_dag.py                                1           0  0.39s           2026-03-23T21:46:58
+================================================================================
+[2026-03-23T21:47:55.639+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:47:29
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.30s           2026-03-23T21:47:29
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-23T21:47:28
+/opt/airflow/dags/medalion_dag.py                                1           0  0.35s           2026-03-23T21:47:29
+================================================================================
+[2026-03-23T21:48:26.603+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:48:00
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.60s           2026-03-23T21:48:00
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-23T21:47:58
+/opt/airflow/dags/medalion_dag.py                                1           0  0.57s           2026-03-23T21:48:00
+================================================================================
+[2026-03-23T21:48:50.303+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:48:50.314+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:48:57.383+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:48:31
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.39s           2026-03-23T21:48:31
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-23T21:48:29
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-23T21:48:31
+================================================================================
+[2026-03-23T21:49:28.081+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:49:01
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.42s           2026-03-23T21:49:01
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:49:00
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-23T21:49:01
+================================================================================
+[2026-03-23T21:49:58.867+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:49:32
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.41s           2026-03-23T21:49:32
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.18s           2026-03-23T21:49:31
+/opt/airflow/dags/medalion_dag.py                                1           0  0.56s           2026-03-23T21:49:32
+================================================================================
+[2026-03-23T21:50:29.764+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:50:03
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.50s           2026-03-23T21:50:03
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.08s           2026-03-23T21:50:01
+/opt/airflow/dags/medalion_dag.py                                1           0  0.47s           2026-03-23T21:50:03
+================================================================================
+[2026-03-23T21:51:00.580+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:50:34
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.34s           2026-03-23T21:50:34
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.18s           2026-03-23T21:50:33
+/opt/airflow/dags/medalion_dag.py                                1           0  0.39s           2026-03-23T21:50:34
+================================================================================
+[2026-03-23T21:51:30.952+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:51:05
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.12s           2026-03-23T21:51:05
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.13s           2026-03-23T21:51:03
+/opt/airflow/dags/medalion_dag.py                                1           0  0.98s           2026-03-23T21:51:05
+================================================================================
+[2026-03-23T21:52:01.637+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:51:36
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.27s           2026-03-23T21:51:36
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.08s           2026-03-23T21:51:34
+/opt/airflow/dags/medalion_dag.py                                1           0  0.39s           2026-03-23T21:51:36
+================================================================================
+[2026-03-23T21:52:32.403+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:52:07
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.69s           2026-03-23T21:52:07
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.21s           2026-03-23T21:52:04
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-23T21:52:07
+================================================================================
+[2026-03-23T21:53:02.998+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:52:37
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.26s           2026-03-23T21:52:37
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.08s           2026-03-23T21:52:35
+/opt/airflow/dags/medalion_dag.py                                1           0  0.31s           2026-03-23T21:52:37
+================================================================================
+[2026-03-23T21:53:33.828+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:53:08
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.50s           2026-03-23T21:53:08
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.17s           2026-03-23T21:53:06
+/opt/airflow/dags/medalion_dag.py                                1           0  0.47s           2026-03-23T21:53:08
+================================================================================
+[2026-03-23T21:53:50.388+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:53:50.397+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:54:04.522+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:53:39
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.33s           2026-03-23T21:53:39
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:53:36
+/opt/airflow/dags/medalion_dag.py                                1           0  0.48s           2026-03-23T21:53:39
+================================================================================
+[2026-03-23T21:54:35.323+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:54:10
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.56s           2026-03-23T21:54:10
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-23T21:54:07
+/opt/airflow/dags/medalion_dag.py                                1           0  0.47s           2026-03-23T21:54:10
+================================================================================
+[2026-03-23T21:55:05.972+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:54:40
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.30s           2026-03-23T21:54:40
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-23T21:54:38
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:54:40
+================================================================================
+[2026-03-23T21:55:36.762+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:55:11
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-23T21:55:11
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.16s           2026-03-23T21:55:09
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:55:11
+================================================================================
+[2026-03-23T21:56:07.385+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:55:42
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.27s           2026-03-23T21:55:42
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-23T21:55:39
+/opt/airflow/dags/medalion_dag.py                                1           0  0.31s           2026-03-23T21:55:42
+================================================================================
+[2026-03-23T21:56:38.232+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:56:13
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.58s           2026-03-23T21:56:13
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-23T21:56:10
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-23T21:56:12
+================================================================================
+[2026-03-23T21:57:09.027+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-23T21:56:43
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.45s           2026-03-23T21:56:43
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-23T21:56:41
+/opt/airflow/dags/medalion_dag.py                                1           0  0.60s           2026-03-23T21:56:43
+================================================================================
+[2026-03-23T21:57:39.805+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-23T21:57:14
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.51s           2026-03-23T21:57:14
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-23T21:57:12
+/opt/airflow/dags/medalion_dag.py                                1           0  0.38s           2026-03-23T21:57:14
+================================================================================
+[2026-03-23T21:58:10.398+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:57:45
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.27s           2026-03-23T21:57:45
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-23T21:57:42
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:57:45
+================================================================================
+[2026-03-23T21:58:41.125+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-23T21:58:15
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.48s           2026-03-23T21:58:15
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-23T21:58:13
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-23T21:58:15
+================================================================================
+[2026-03-23T21:58:50.658+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T21:58:50.661+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T21:59:11.816+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.09s           2026-03-23T21:58:46
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.38s           2026-03-23T21:58:46
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-23T21:58:44
+/opt/airflow/dags/medalion_dag.py                                1           0  0.60s           2026-03-23T21:58:46
+================================================================================
+[2026-03-23T21:59:42.563+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T21:59:17
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.41s           2026-03-23T21:59:17
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.10s           2026-03-23T21:59:14
+/opt/airflow/dags/medalion_dag.py                                1           0  0.32s           2026-03-23T21:59:17
+================================================================================
+[2026-03-23T22:00:13.423+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.09s           2026-03-23T21:59:48
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.35s           2026-03-23T21:59:48
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.17s           2026-03-23T21:59:45
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-23T21:59:48
+================================================================================
+[2026-03-23T22:00:44.423+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-23T22:00:19
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-23T22:00:19
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-23T22:00:16
+/opt/airflow/dags/medalion_dag.py                                1           0  0.51s           2026-03-23T22:00:19
+================================================================================
+[2026-03-23T22:00:57.813+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-23T22:02:17.344+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-03-23T22:02:17.345+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-03-23T22:02:17.346+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-23T22:02:17.348+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-23T22:02:17.379+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-23T22:02:17.499+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dbt_dag.py                                     0           0
+/opt/airflow/dags/hourly_batch_data.py                           0           0
+/opt/airflow/dags/sentiment_dag.py        170  0.05s             0           0
+/opt/airflow/dags/medalion_dag.py         174  0.03s             0           0
+================================================================================
+[2026-03-23T22:02:47.772+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-23T22:02:18
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.98s           2026-03-23T22:02:19
+/opt/airflow/dags/sentiment_dag.py        193  0.02s             1           0  0.13s           2026-03-23T22:02:17
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-23T22:02:18
+================================================================================
+[2026-03-23T22:03:11.272+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2026-03-28T18:21:02.879+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2026-03-28T18:21:02.881+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2026-03-28T18:21:02.882+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2026-03-28T18:21:02.882+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:21:02.897+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-28T18:21:03.123+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dbt_dag.py                                     0           0
+/opt/airflow/dags/hourly_batch_data.py                           0           0
+/opt/airflow/dags/sentiment_dag.py        170  0.13s             0           0
+/opt/airflow/dags/medalion_dag.py         173  0.12s             0           0
+================================================================================
+[2026-03-28T18:21:34.163+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.10s           2026-03-28T18:21:03
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.65s           2026-03-28T18:21:03
+/opt/airflow/dags/sentiment_dag.py        192  0.03s             1           0  0.25s           2026-03-28T18:21:03
+/opt/airflow/dags/medalion_dag.py         195  0.01s             1           0  0.80s           2026-03-28T18:21:03
+================================================================================
+[2026-03-28T18:22:04.660+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.12s           2026-03-28T18:21:35
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.02s           2026-03-28T18:21:35
+/opt/airflow/dags/sentiment_dag.py        214  0.02s             1           0  0.13s           2026-03-28T18:21:34
+/opt/airflow/dags/medalion_dag.py                                1           0  1.23s           2026-03-28T18:21:35
+================================================================================
+[2026-03-28T18:22:35.363+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:22:07
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.38s           2026-03-28T18:22:07
+/opt/airflow/dags/sentiment_dag.py        236  0.01s             1           0  0.12s           2026-03-28T18:22:04
+/opt/airflow/dags/medalion_dag.py                                1           0  1.34s           2026-03-28T18:22:07
+================================================================================
+[2026-03-28T18:23:06.395+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                 PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:22:38
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.65s           2026-03-28T18:22:38
+/opt/airflow/dags/sentiment_dag.py        258  0.02s             1           0  0.16s           2026-03-28T18:22:35
+/opt/airflow/dags/medalion_dag.py                                1           0  0.73s           2026-03-28T18:22:38
+================================================================================
+[2026-03-28T18:23:36.486+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-28T18:23:09
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.69s           2026-03-28T18:23:09
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:23:06
+/opt/airflow/dags/medalion_dag.py                                1           0  0.74s           2026-03-28T18:23:09
+================================================================================
+[2026-03-28T18:24:06.933+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.14s           2026-03-28T18:23:40
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.67s           2026-03-28T18:23:40
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.29s           2026-03-28T18:23:37
+/opt/airflow/dags/medalion_dag.py                                1           0  0.72s           2026-03-28T18:23:40
+================================================================================
+[2026-03-28T18:24:37.114+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.14s           2026-03-28T18:24:11
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.23s           2026-03-28T18:24:11
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.32s           2026-03-28T18:24:08
+/opt/airflow/dags/medalion_dag.py                                1           0  1.25s           2026-03-28T18:24:11
+================================================================================
+[2026-03-28T18:25:07.340+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.18s           2026-03-28T18:24:43
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.80s           2026-03-28T18:24:43
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.39s           2026-03-28T18:24:39
+/opt/airflow/dags/medalion_dag.py                                1           0  0.90s           2026-03-28T18:24:43
+================================================================================
+[2026-03-28T18:25:37.400+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.13s           2026-03-28T18:25:14
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.63s           2026-03-28T18:25:14
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.33s           2026-03-28T18:25:10
+/opt/airflow/dags/medalion_dag.py                                1           0  0.59s           2026-03-28T18:25:14
+================================================================================
+[2026-03-28T18:26:03.353+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:26:03.365+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-28T18:26:07.413+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:25:45
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.45s           2026-03-28T18:25:45
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.33s           2026-03-28T18:25:41
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-28T18:25:45
+================================================================================
+[2026-03-28T18:26:38.246+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-28T18:26:16
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.57s           2026-03-28T18:26:16
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.08s           2026-03-28T18:26:12
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-28T18:26:16
+================================================================================
+[2026-03-28T18:27:08.875+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:26:46
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.29s           2026-03-28T18:26:46
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.11s           2026-03-28T18:26:43
+/opt/airflow/dags/medalion_dag.py                                1           0  0.34s           2026-03-28T18:26:46
+================================================================================
+[2026-03-28T18:27:39.674+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:27:17
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.50s           2026-03-28T18:27:17
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-28T18:27:14
+/opt/airflow/dags/medalion_dag.py                                1           0  0.47s           2026-03-28T18:27:17
+================================================================================
+[2026-03-28T18:28:09.826+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.16s           2026-03-28T18:27:48
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.85s           2026-03-28T18:27:48
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-28T18:27:44
+/opt/airflow/dags/medalion_dag.py                                1           0  0.97s           2026-03-28T18:27:48
+================================================================================
+[2026-03-28T18:28:40.473+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-28T18:28:19
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.34s           2026-03-28T18:28:19
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.07s           2026-03-28T18:28:15
+/opt/airflow/dags/medalion_dag.py                                1           0  0.31s           2026-03-28T18:28:19
+================================================================================
+[2026-03-28T18:29:11.454+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-28T18:28:50
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-28T18:28:50
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-28T18:28:46
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-28T18:28:50
+================================================================================
+[2026-03-28T18:29:42.171+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:29:21
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.39s           2026-03-28T18:29:21
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.18s           2026-03-28T18:29:17
+/opt/airflow/dags/medalion_dag.py                                1           0  0.35s           2026-03-28T18:29:21
+================================================================================
+[2026-03-28T18:30:12.824+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-28T18:29:51
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.31s           2026-03-28T18:29:51
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:29:48
+/opt/airflow/dags/medalion_dag.py                                1           0  0.37s           2026-03-28T18:29:51
+================================================================================
+[2026-03-28T18:30:43.640+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:30:22
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.49s           2026-03-28T18:30:22
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.21s           2026-03-28T18:30:19
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-28T18:30:22
+================================================================================
+[2026-03-28T18:31:03.761+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:31:03.775+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-28T18:31:13.896+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.09s           2026-03-28T18:30:53
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.81s           2026-03-28T18:30:53
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-28T18:30:49
+/opt/airflow/dags/medalion_dag.py                                1           0  0.89s           2026-03-28T18:30:53
+================================================================================
+[2026-03-28T18:31:44.675+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-28T18:31:24
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.47s           2026-03-28T18:31:24
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.13s           2026-03-28T18:31:20
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-28T18:31:24
+================================================================================
+[2026-03-28T18:32:15.488+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:31:55
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.37s           2026-03-28T18:31:55
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-28T18:31:50
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-28T18:31:55
+================================================================================
+[2026-03-28T18:32:46.392+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:32:26
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-28T18:32:26
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-28T18:32:21
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-28T18:32:26
+================================================================================
+[2026-03-28T18:33:17.198+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:32:57
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.39s           2026-03-28T18:32:56
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.22s           2026-03-28T18:32:52
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-28T18:32:56
+================================================================================
+[2026-03-28T18:33:48.132+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:33:27
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.48s           2026-03-28T18:33:27
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.17s           2026-03-28T18:33:23
+/opt/airflow/dags/medalion_dag.py                                1           0  0.45s           2026-03-28T18:33:27
+================================================================================
+[2026-03-28T18:34:18.975+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:33:58
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.43s           2026-03-28T18:33:58
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-28T18:33:54
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-28T18:33:58
+================================================================================
+[2026-03-28T18:34:48.984+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:34:29
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.55s           2026-03-28T18:34:29
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.16s           2026-03-28T18:34:25
+/opt/airflow/dags/medalion_dag.py                                1           0  0.51s           2026-03-28T18:34:29
+================================================================================
+[2026-03-28T18:35:19.826+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:35:00
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.49s           2026-03-28T18:35:00
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-28T18:34:56
+/opt/airflow/dags/medalion_dag.py                                1           0  0.56s           2026-03-28T18:35:00
+================================================================================
+[2026-03-28T18:35:50.761+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:35:31
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-28T18:35:31
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.21s           2026-03-28T18:35:27
+/opt/airflow/dags/medalion_dag.py                                1           0  0.41s           2026-03-28T18:35:31
+================================================================================
+[2026-03-28T18:36:03.782+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:36:03.794+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-28T18:36:20.940+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.10s           2026-03-28T18:36:03
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.78s           2026-03-28T18:36:03
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-28T18:35:57
+/opt/airflow/dags/medalion_dag.py                                1           0  1.85s           2026-03-28T18:36:03
+================================================================================
+[2026-03-28T18:36:51.356+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-28T18:36:35
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.09s           2026-03-28T18:36:35
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-28T18:36:28
+/opt/airflow/dags/medalion_dag.py                                1           0  1.04s           2026-03-28T18:36:35
+================================================================================
+[2026-03-28T18:37:21.463+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.11s           2026-03-28T18:37:07
+/opt/airflow/dags/hourly_batch_data.py                           1           0  1.31s           2026-03-28T18:37:07
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.37s           2026-03-28T18:36:59
+/opt/airflow/dags/medalion_dag.py                                1           0  1.42s           2026-03-28T18:37:07
+================================================================================
+[2026-03-28T18:37:51.894+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:37:38
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.70s           2026-03-28T18:37:38
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-28T18:37:30
+/opt/airflow/dags/medalion_dag.py                                1           0  0.70s           2026-03-28T18:37:38
+================================================================================
+[2026-03-28T18:38:22.714+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:38:09
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.40s           2026-03-28T18:38:09
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.24s           2026-03-28T18:38:01
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-28T18:38:09
+================================================================================
+[2026-03-28T18:38:53.670+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:38:40
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.57s           2026-03-28T18:38:40
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.17s           2026-03-28T18:38:31
+/opt/airflow/dags/medalion_dag.py                                1           0  0.57s           2026-03-28T18:38:40
+================================================================================
+[2026-03-28T18:39:24.470+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.17s           2026-03-28T18:39:11
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.44s           2026-03-28T18:39:11
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.12s           2026-03-28T18:39:02
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-28T18:39:11
+================================================================================
+[2026-03-28T18:39:54.521+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:39:42
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.57s           2026-03-28T18:39:42
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.15s           2026-03-28T18:39:33
+/opt/airflow/dags/medalion_dag.py                                1           0  0.57s           2026-03-28T18:39:42
+================================================================================
+[2026-03-28T18:40:24.872+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:40:13
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.83s           2026-03-28T18:40:13
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.44s           2026-03-28T18:40:05
+/opt/airflow/dags/medalion_dag.py                                1           0  0.94s           2026-03-28T18:40:13
+================================================================================
+[2026-03-28T18:40:55.670+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:40:44
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.48s           2026-03-28T18:40:44
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:40:36
+/opt/airflow/dags/medalion_dag.py                                1           0  0.43s           2026-03-28T18:40:44
+================================================================================
+[2026-03-28T18:41:04.745+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:41:04.760+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-28T18:41:25.695+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:41:15
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.37s           2026-03-28T18:41:15
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-28T18:41:06
+/opt/airflow/dags/medalion_dag.py                                1           0  0.72s           2026-03-28T18:41:15
+================================================================================
+[2026-03-28T18:41:56.301+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.05s           2026-03-28T18:41:46
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.62s           2026-03-28T18:41:46
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.17s           2026-03-28T18:41:37
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-28T18:41:46
+================================================================================
+[2026-03-28T18:42:27.227+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:42:17
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-28T18:42:17
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.09s           2026-03-28T18:42:08
+/opt/airflow/dags/medalion_dag.py                                1           0  0.58s           2026-03-28T18:42:17
+================================================================================
+[2026-03-28T18:42:57.271+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:42:48
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.49s           2026-03-28T18:42:48
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.21s           2026-03-28T18:42:39
+/opt/airflow/dags/medalion_dag.py                                1           0  0.47s           2026-03-28T18:42:48
+================================================================================
+[2026-03-28T18:43:27.395+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-28T18:43:19
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.53s           2026-03-28T18:43:19
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:43:10
+/opt/airflow/dags/medalion_dag.py                                1           0  0.80s           2026-03-28T18:43:19
+================================================================================
+[2026-03-28T18:43:57.408+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:43:50
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-28T18:43:50
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-28T18:43:40
+/opt/airflow/dags/medalion_dag.py                                1           0  0.38s           2026-03-28T18:43:50
+================================================================================
+[2026-03-28T18:44:27.431+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-28T18:44:21
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.59s           2026-03-28T18:44:21
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-28T18:44:11
+/opt/airflow/dags/medalion_dag.py                                1           0  0.71s           2026-03-28T18:44:21
+================================================================================
+[2026-03-28T18:44:57.585+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:44:52
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.53s           2026-03-28T18:44:52
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.20s           2026-03-28T18:44:42
+/opt/airflow/dags/medalion_dag.py                                1           0  0.49s           2026-03-28T18:44:52
+================================================================================
+[2026-03-28T18:45:28.289+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:45:23
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.33s           2026-03-28T18:45:23
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.08s           2026-03-28T18:45:12
+/opt/airflow/dags/medalion_dag.py                                1           0  0.54s           2026-03-28T18:45:23
+================================================================================
+[2026-03-28T18:45:58.336+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.10s           2026-03-28T18:45:54
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.71s           2026-03-28T18:45:54
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.28s           2026-03-28T18:45:43
+/opt/airflow/dags/medalion_dag.py                                1           0  0.55s           2026-03-28T18:45:54
+================================================================================
+[2026-03-28T18:46:05.387+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2026-03-28T18:46:05.402+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2026-03-28T18:46:28.375+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-28T18:46:25
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.60s           2026-03-28T18:46:25
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.13s           2026-03-28T18:46:14
+/opt/airflow/dags/medalion_dag.py                                1           0  0.71s           2026-03-28T18:46:25
+================================================================================
+[2026-03-28T18:46:59.369+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:46:56
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.54s           2026-03-28T18:46:56
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.24s           2026-03-28T18:46:44
+/opt/airflow/dags/medalion_dag.py                                1           0  0.50s           2026-03-28T18:46:56
+================================================================================
+[2026-03-28T18:47:30.292+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:47:27
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.46s           2026-03-28T18:47:27
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:47:15
+/opt/airflow/dags/medalion_dag.py                                1           0  0.53s           2026-03-28T18:47:27
+================================================================================
+[2026-03-28T18:48:00.731+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.08s           2026-03-28T18:47:58
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.72s           2026-03-28T18:47:58
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.14s           2026-03-28T18:47:46
+/opt/airflow/dags/medalion_dag.py                                1           0  0.56s           2026-03-28T18:47:58
+================================================================================
+[2026-03-28T18:48:31.678+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:48:29
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.53s           2026-03-28T18:48:29
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.13s           2026-03-28T18:48:17
+/opt/airflow/dags/medalion_dag.py                                1           0  0.70s           2026-03-28T18:48:29
+================================================================================
+[2026-03-28T18:49:02.472+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:49:00
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.45s           2026-03-28T18:49:00
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:48:48
+/opt/airflow/dags/medalion_dag.py                                1           0  0.41s           2026-03-28T18:49:00
+================================================================================
+[2026-03-28T18:49:33.257+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.06s           2026-03-28T18:49:31
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.40s           2026-03-28T18:49:31
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.18s           2026-03-28T18:49:18
+/opt/airflow/dags/medalion_dag.py                                1           0  0.46s           2026-03-28T18:49:31
+================================================================================
+[2026-03-28T18:50:03.288+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                               PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dbt_dag.py                                     1           0  0.07s           2026-03-28T18:50:02
+/opt/airflow/dags/hourly_batch_data.py                           1           0  0.65s           2026-03-28T18:50:02
+/opt/airflow/dags/sentiment_dag.py                               1           0  0.19s           2026-03-28T18:49:49
+/opt/airflow/dags/medalion_dag.py                                1           0  0.52s           2026-03-28T18:50:02
+================================================================================
