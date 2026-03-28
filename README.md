@@ -6,7 +6,11 @@ A real-time cryptocurrency data pipeline built with modern data engineering tool
 
 ## 📐 Architecture Overview
 
+![Architecture](architecture.png)
+
 ```
+
+
 ┌─────────────────────────────────────────────────────────────────┐
 │                     DATA SOURCES                                │
 │                  Binance WebSocket API                          │
